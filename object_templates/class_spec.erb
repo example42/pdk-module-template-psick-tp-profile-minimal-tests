@@ -33,7 +33,6 @@ describe '<%= name %>' do
 
         it { is_expected.to contain_tp__install('<%= app_name %>').with(default_params.merge('ensure' => 'absent')) }
       end
-
     end
   end
 end
